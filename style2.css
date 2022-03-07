@@ -59,7 +59,7 @@
 }
 
 /* tablets */
-@media screens and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .col-s-3 {
         width: 33%;
     }
