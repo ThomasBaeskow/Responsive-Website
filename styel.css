@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    color: blue;
+}
+
+.example {
+    font-size: 4rem;
+}
+
+.next-example {
+    font-size: 2rem;
+}
+
+/* You call media and define the type (all and max-width:500px). So if the screensize is under 500px, the color changes to green */
+/* @media all and (max-width: 500px) {
+    body {
+        color: green;
+    }
+} */
+
+/* the color of body turns red, if you try to print it */
+/* @media print {
+    body {
+        color: red;
+    }
+} */
+
+/* it means if the width is bigger than the height in the screen, the color changes to red. Its for example for mobilephones when you turn the view horizontal */
+/* @media (orientation: landscape) {
+    .example {
+        color: red;
+    }
+} */
+
+/* its the opposite. If the width is smaller then the height, the color turns red*/
+/* @media (orientation: portrait) {
+    .example {
+        color: red;
+    }
+} */
